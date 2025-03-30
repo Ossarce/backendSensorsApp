@@ -1,0 +1,28 @@
+# Entorno virtual y dependencias
+venv/
+.env
+*.env
+Pipfile.lock
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de migraciones (opcional, si prefieres generarlas en cada entorno)
+**/migrations/*.pyc
+**/migrations/*.py
+
+# Archivos estáticos y media
+/media/
+/static/
+
+# Archivos de logs
+*.log
+
+# Configuración de IDEs y editores de texto
+.vscode/
+.idea/
+*.swp
+*.swo
