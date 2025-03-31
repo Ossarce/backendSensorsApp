@@ -10,10 +10,6 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Archivos de migraciones (opcional, si prefieres generarlas en cada entorno)
-**/migrations/*.pyc
-**/migrations/*.py
-
 # Archivos estáticos y media
 /media/
 /static/
