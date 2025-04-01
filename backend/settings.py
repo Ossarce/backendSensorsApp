@@ -63,6 +63,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True # En produccion no se utiliza! Ahí debemos crear un whitelist indicando quienes pueden acceder al servidor
+CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOWED_ORIGINS = [] #agregar direcciones permitidas aquí
 
 SESSION_COOKIE_SECURE = False # Cambiar a True en produccion
 CSRF_COOKIE_SECURE = True
@@ -89,6 +91,7 @@ SIMPLE_JWT = {
     "AUTH_COOKIE_SECURE": False,  # Cambiar a True en producción
     "AUTH_COOKIE_SAMESITE": "Lax",
     "AUTH_COOKIE_DOMAIN": None,
+    "AUTH_COOKIE_PATH": "/",
 }
 
 
